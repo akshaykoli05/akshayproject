@@ -21,7 +21,7 @@ provider "azurerm" {
 
 module "rg" {
   source   = "./modules/resource_group"
-  name     = "my-tf-rg"
+  name     = "rg002"
   location = "East US"
   tags = {
     environment = "dev"
