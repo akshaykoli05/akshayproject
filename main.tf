@@ -21,7 +21,7 @@ provider "azurerm" {
 
 module "rg" {
   source   = "./modules/resource_group"
-  name     = "rg002"
+  name     = "rg00r5"
   location = "East US"
   tags = {
     environment = "dev"
